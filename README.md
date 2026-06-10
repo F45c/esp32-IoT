@@ -44,16 +44,16 @@ I carefully checked that every sensor is in the right place and its functionalit
 
 There are two trimmer for controlling the sensitivity of the gas sensor and flame detector respectively.
 
-![3D Model of PCB](https://github.com/F45c/esp32-IoT/blob/5c1764f8c9ce926280e4762f08e09c0a4af0f980/images/3d_pcb.png)
+![3D Model of PCB](https://github.com/F45c/esp32-IoT/blob/fbed3bfc5218fe83a78dfc8c5ae1e6ccfdde8883/images/3d_pcb.png)
 
 ### PCB
 
 The important points to mention in the PCB Design are the two Ground Planes which fill up all unused space on the front and back layers. Though, the space below the esp32's pcb antenna needs to be copper-free allowing the antenna to work without being blocked / the signal reflected.
 
-![PCB Design](https://github.com/F45c/esp32-IoT/blob/5c1764f8c9ce926280e4762f08e09c0a4af0f980/images/pcb.png)
+![PCB Design](https://github.com/F45c/esp32-IoT/blob/fbed3bfc5218fe83a78dfc8c5ae1e6ccfdde8883/images/pcb.png)
 
 ### Schematic
 
-![Schematic Design](https://github.com/F45c/esp32-IoT/blob/5c1764f8c9ce926280e4762f08e09c0a4af0f980/images/schematic.png)
+![Schematic Design](https://github.com/F45c/esp32-IoT/blob/fbed3bfc5218fe83a78dfc8c5ae1e6ccfdde8883/images/schematic.png)
 
 
