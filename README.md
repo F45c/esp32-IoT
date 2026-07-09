@@ -32,6 +32,10 @@ An Esp32 packed with sensors for IoT use. It uses the Esp32-C3-Mini-1 module tha
 > 
 > Light Dependent Resistor
 
+### Finished Build
+<img src="https://github.com/F45c/esp32-IoT/blob/c4b29bcfaed27663d53e99ef803f32e0583bb4c3/images/pcb_assembled1.png" width=40%>
+
+<img src="https://github.com/F45c/esp32-IoT/blob/c4b29bcfaed27663d53e99ef803f32e0583bb4c3/images/pcb_assembled2.png" width=40%>
 
 ## Why am I making this?
 
