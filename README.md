@@ -33,6 +33,12 @@ An Esp32 packed with sensors for IoT use. It uses the Esp32-C3-Mini-1 module tha
 > Light Dependent Resistor
 
 ### Finished Build
+I finished the PCB assembly. Since I'm a beginner, I was struggling a lot with the tiny solder joints. The most annoying parts to solder were definitely the BMP280 and the USB-C connector because the pins are so tiny and are easily bridged. Soldering the LEDs failed a few times because I would test them before for polarity check and while picking the up with the tweezers, they would move and I accidentally soldered them wrong a few times.
+
+Originally, I would have unsoldered the MQ-135 gas sensor and solder it to my pcb, but I wasn't able to because of how to module is designed so I stuck the pins that are sticking out of the bottom of the board into my pcb and it fits.
+
+I spaced everything tightly in the design and now that I built it, I find it hard to fully reach the Heart Rate sensor (2nd image bottom right), but since the Motion sensor is unpluggable, you can still use it.
+
 <img src="https://github.com/F45c/esp32-IoT/blob/c4b29bcfaed27663d53e99ef803f32e0583bb4c3/images/pcb_assembled1.png" width=40%>
 
 <img src="https://github.com/F45c/esp32-IoT/blob/c4b29bcfaed27663d53e99ef803f32e0583bb4c3/images/pcb_assembled2.png" width=40%>
