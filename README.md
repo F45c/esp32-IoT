@@ -43,6 +43,8 @@ I spaced everything tightly in the design and now that I built it, I find it har
 
 <img src="https://github.com/F45c/esp32-IoT/blob/c4b29bcfaed27663d53e99ef803f32e0583bb4c3/images/pcb_assembled2.png" width=40%>
 
+![Here you can find the Demo Video](https://github.com/F45c/esp32-IoT/blob/1337bfd01edbffe72ce3f5e00ffe7f1ed57a7687/demo_video.mp4)
+
 ## Why am I making this?
 
 I'm building this sensor board for a presentation of mine about Internet of Things.
@@ -67,35 +69,10 @@ The important points to mention in the PCB Design are the two Ground Planes whic
 ![Schematic Design](https://github.com/F45c/esp32-IoT/blob/fbed3bfc5218fe83a78dfc8c5ae1e6ccfdde8883/images/schematic.png)
 
 ### BOM
+|Name|Purpose|Quantity|Total Cost (USD)|Link|Distributor|
+|----|------|---|------|------------|-----------|
+|PCB|PCB board|1|5.5||JLCPCB|
+|HC-SR501|Motion sensor|1|4.05|https://www.amazon.com/-/de/dp/B09LVJ4DZX|Amazon|
+|MQ-135|Gas Sensor|1|4.99|https://www.amazon.com/dp/B0GSRWSLB1|Amazon|
 
-| Designator | Footprint | Qty | Value | LCSC Part # |
-|---|---|---|---|---|
-| C1, C10, C12, C14, C15, C16, C17, C2, C4, C5, C6, C9 | 0603 | 12 | 100nF | |
-| C11, C13 | 0603 | 2 | 1uF | |
-| C3 | 0603 | 1 | 10uF | |
-| C7 | 0603 | 1 | 2.2nF | |
-| C8 | 0603 | 1 | 10nF | |
-| D2, GAS-LED | 0603 | 2 | LED | |
-| DS18B20 | TO-92_Inline | 1 | DS18B20 | |
-| FEUER-LED | LED_D3.0mm | 1 | IR Sensor | |
-| HC-SR501 | HC-SR501 | 1 | Motion Sensor | |
-| J1 | AMPHENOL_GMSB0532112YEU | 1 | GMSB0532112YEU | |
-| J8 | GCT_USB4215-03-A_REVA | 1 | USB4215-03-A_REVA | |
-| LDR | R_LDR_5.1x4.3mm_P3.4mm_Vertical | 1 | LDR07 | |
-| MAX30102 | Maxim_OLGA-14_3.3x5.6mm_P0.8mm | 1 | MAX30102 | |
-| MPU-6050 | InvenSense_QFN-24_4x4mm_P0.5mm | 1 | MPU-6050 | |
-| MQ-135 | MQ-6 | 1 | MQ-135 | |
-| R1 | 0603 | 1 | 5kΩ | |
-| R11 | 0603 | 1 | 33kΩ | |
-| R12, R3, R7, R8 | 0603 | 4 | 10kΩ | |
-| R13, R9 | 0603 | 2 | 100Ω | |
-| R14, R15 | 0603 | 2 | 22Ω | |
-| R4 | 0603 | 1 | 330Ω | |
-| R5, R6 | 0603 | 2 | 2k–4.7kΩ | |
-| RV1, RV2 | Potentiometer_Bourns_3296W_Vertical | 2 | 10k Pot | |
-| U1 | ESP32-C3-MINI-1 | 1 | ESP32-C3-MINI-1 | |
-| U10, U11 | SOIC127P600X265-8N | 2 | LM393 | |
-| U2 | Aosong_DHT11_5.5x12.0_P2.54mm | 1 | DHT11 | |
-| U4 | PSON100P300X300X110-6N | 1 | AHT20 | |
-| U5 | Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering | 1 | BMP280 | |
-| U8 | SOT95P255X145-3N | 1 | MCP1702T-3302E/CB | MCP1702T-3302E/CB |
+Everything else is in the PCBA BOM
