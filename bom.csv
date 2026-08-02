@@ -2,3 +2,4 @@ Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
 "PCB","PCB board",1,5.5,"","JLCPCB"
 "HC-SR501","Motion sensor",1,4.05,"https://www.amazon.com/-/de/dp/B09LVJ4DZX","Amazon"
 "MQ-135","Gas Sensor",1,4.99,"https://www.amazon.com/dp/B0GSRWSLB1","Amazon"
+"PCBA","PCB Assembly Parts",1,25.60,"","JLCPCB"
